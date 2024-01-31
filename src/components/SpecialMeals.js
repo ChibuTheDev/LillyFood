@@ -13,13 +13,13 @@ const meals = [
     id:2,
     title:'Meat Balls',
     img: meatballs,
-    desc: 'A delicious Meat ball meal for you'
+    desc: `A delicious Meat ball meal`
    },
    {
     id: 3,
     title: 'Burger',
     img:burger,
-    desc: 'A delicious Burger meal for you'
+    desc: 'A delicious Burger meal'
    }
 
 ]
@@ -38,7 +38,6 @@ const SpecialMeals = () => {
       {meals.map((food) => (
         <Food food={food} key={food.id}  /> 
       ))}
-
       
       </div>
       
